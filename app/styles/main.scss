@@ -1,0 +1,61 @@
+// bower:scss
+// endbower
+
+/* ---------- GENERAL ---------- */
+
+body {
+  background: #383838;
+  font: 100%/1.5em sans-serif;
+  margin: 0;
+}
+
+/* ---------- SEARCH ---------- */
+
+#search {
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+  color: #fff;
+}
+
+#search form input[type="text"] {
+  background: #343434 url("http://web473.dashosting.de/codepen/images/icon-search-grey.png") 10px center no-repeat;
+  border: none;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;
+  -moz-box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;
+  -webkit-box-shadow: inset 1px 1px 1px #242424, inset -1px -1px 1px #565656;
+  color: #aaaaaa;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  outline: none;
+  padding: 20px 10px 20px 36px;
+  text-shadow: 1px 1px 2px #141414;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.result {
+  margin-left: 38px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  padding: 20px;
+  font-size: 18px;
+}
