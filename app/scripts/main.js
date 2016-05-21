@@ -60,7 +60,7 @@ var app = {
 	parseAndFilterEmails: function (data) {
 		var emails = [];
 		for (var i = 0; i < data.length; i++) {
-			if (data[i].type === "PushEvent") {
+			if (data[i].type === 'PushEvent') {
 				try {
 					emails.push(data[i].payload.commits[0].author.email);
 				} catch (e) {}
