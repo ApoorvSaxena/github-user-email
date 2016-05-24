@@ -23,12 +23,14 @@ var app = {
 		$('#github-form').submit(function (e) {
 			var input = $(this).find('input').val();
 			var username = self.getUsername(input);
+			$('#progress-bar').removeClass('hide');
 			$.when(
 				self.processEvents(username),
 				self.processProfile(username)
 			).done(function () {
 				var emails = _.uniq(_.flatten(arguments));
 				self.render(emails);
+				$('#progress-bar').addClass('hide');
 			});
 			return false;
 		})

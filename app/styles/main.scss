@@ -3,6 +3,8 @@
 
 /* ---------- GENERAL ---------- */
 
+@import "progress-bar.css";
+
 body {
   background: #383838;
   font: 100%/1.5em sans-serif;
@@ -16,6 +18,11 @@ body {
   max-width: 500px;
   text-align: center;
   color: #fff;
+  padding: 20px;
+}
+
+#search h1 {
+  line-height: 35px;
 }
 
 #search form input[type="text"] {
@@ -31,7 +38,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   outline: none;
-  padding: 20px 10px 20px 36px;
+  padding: 5px;
   text-shadow: 1px 1px 2px #141414;
   width: 50%;
 }
@@ -56,6 +63,10 @@ ul {
 }
 
 .btn {
-  padding: 20px;
+  padding: 5px;
   font-size: 18px;
+}
+
+button {
+  background-color: #fff;
 }
